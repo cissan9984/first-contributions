@@ -1,0 +1,9 @@
+{"ts":"2026-01-10T09:00:00","type":"book","side":"ask","price":40320.0,"size":25}
+{"ts":"2026-01-10T09:00:01","type":"trade","side":"buy","price":40320.0,"size":30}
+{"ts":"2026-01-10T09:00:02","type":"book","side":"ask","price":40320.0,"size":22}
+{"ts":"2026-01-10T09:00:03","type":"trade","side":"buy","price":40320.0,"size":35}
+{"ts":"2026-01-10T09:00:04","type":"book","side":"ask","price":40320.0,"size":27}
+{"ts":"2026-01-10T09:00:05","type":"trade","side":"buy","price":40320.0,"size":40}
+{"ts":"2026-01-10T09:00:06","type":"book","side":"ask","price":40320.0,"size":23}
+{"ts":"2026-01-10T09:00:07","type":"book","side":"ask","price":40320.0,"size":28}
+{"ts":"2026-01-10T09:00:08","type":"trade","side":"buy","price":40320.0,"size":25}

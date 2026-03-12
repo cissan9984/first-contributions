@@ -1,0 +1,7 @@
+{
+  "min_absorbed_volume": 100,
+  "min_replenishments": 2,
+  "max_price_drift_ticks": 1,
+  "min_alert_cooldown_sec": 10,
+  "sliding_window_sec": 20
+}
