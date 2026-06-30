@@ -1,5 +1,4 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-[<img align="right" width="150" src="https://firstcontributions.github.io/assets/Readme/join-slack-team.png">](https://join.slack.com/t/firstcontributors/shared_invite/zt-1hg51qkgm-Xc7HxhsiPYNN3ofX2_I8FA)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Open Source Helpers](https://www.codetriage.com/roshanjossey/first-contributions/badges/users.svg)](https://www.codetriage.com/roshanjossey/first-contributions)
 
@@ -11,28 +10,28 @@ Việc đọc hướng dẫn có tác dụng, nhưng có gì tốt hơn là th�
 
 #### *Nếu bạn không thoải mái khi làm việc với dòng lệnh, [đây là các hướng dẫn sử dụng các công cụ có giao diện đồ họa (GUI).]( #Hướng-dẫn-sử-dụng-các-công-cụ-khác )*
 
-<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="fork this repository" />
+<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="Rẽ nhánh kho lưu trữ" />
 
 Nếu bạn không có git trên máy tính của bạn, [cài đặt git](https://help.github.com/articles/set-up-git/).
 
-## Sao chép kho lưu trữ (Fork)
+## Rẽ nhánh kho lưu trữ (Fork)
 
-Sao chép (copy) kho lưu trữ mã nguồn (repository) này bằng cách nhấn vào nút `Fork` (Tạo nhánh) đầu trang này. Một bản sao kho lưu trữ này sẽ được tạo ra trong tài khoản của bạn.
+Rẽ nhánh kho lưu trữ mã nguồn (repository) này bằng cách nhấn vào nút `Fork` trên đầu trang này. Một bản sao kho lưu trữ này sẽ được tạo ra trong tài khoản của bạn.
 
 ## Tạo bản lưu nội bộ của kho lưu trữ trên máy tính của bạn (clone)
 
-<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/clone.png" alt="clone this repository" />
+<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/clone.png" alt="Tạo bản lưu nội bộ của kho lưu trữ" />
 
-Bây giờ, hãy sao chép bản sao (clone) kho lưu trữ đã được sao chép (fork) này vào máy của bạn. Để thực hiện thao tác này, truy xuất vào tài khoản GitHub của bạn, mở kho lưu trữ đã tạo nhánh rồi nhấn vào nút `Code`, và sau đó nhấn vào biểu tượng *copy to clipboard*
+Bây giờ, hãy sao chép, tạo bản lưu nội bộ của kho lưu trữ này vào máy của bạn. Để thực hiện thao tác này, truy xuất vào tài khoản GitHub của bạn, mở kho lưu trữ đã tạo nhánh rồi nhấn vào nút `Code`, và sau đó nhấn vào biểu tượng *copy to clipboard*
 
 Mở một cửa sổ terminal và chạy lệnh git sau đây:
 
 ```bash
 git clone "url bạn vừa sao chép"
 ```
-Trong đó `"url bạn vừa sao chép"` (không có dấu ngoặc kép) là url dẫn vào kho mã nguồn (mà bạn đã sao chép) này. Xem các bước trước đó để có được url.
+Trong đó `"url bạn vừa sao chép"` (không có dấu ngoặc kép) là url dẫn vào kho lưu trữ mà bạn đã tạo ra trong tài khoản của bạn). Xem các bước trước đó để có được url.
 
-<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/copy-to-clipboard.png" alt="copy URL to clipboard" />
+<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/copy-to-clipboard.png" alt="sao chép URL vào clipboard" />
 
 Ví dụ:
 ```bash
@@ -62,9 +61,9 @@ git switch -c thêm-Tran-Ly-Vu
 
 Bây giờ mở tập tin `Contributors.md` trong một trình soạn thảo văn bản và thêm tên của bạn vào. Đừng thêm vào đầu hoặc cuối tập tin. Thêm vào bất cứ nơi nào ở giữa. Sau đó, lưu tập tin.
 
-<img align="right" width="450" src="https://firstcontributions.github.io/assets/Readme/git-status.png" alt="git status" />
+<img align="right" width="450" src="https://firstcontributions.github.io/assets/Readme/git-status.png" alt="trạng thái git" />
 
-Nếu bạn vào thư mục hiện tại của project và thực hiện lệnh `git status`, bạn sẽ thấy những thay đổi.
+Nếu bạn vào thư mục hiện tại của project và thực hiện lệnh `git status` (trạng thái git), bạn sẽ thấy những thay đổi.
 
 Thêm những thay đổi vào nhánh bạn vừa tạo bằng lệnh `git add`:
 
@@ -93,7 +92,7 @@ thay thế `<tên-nhánh-của-bạn>` với tên của nhánh bạn tạo ra tr
 - ### Lỗi xác thực (Authentication Error)
      <pre>remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
   remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
-  fatal: Authentication failed for 'https://github.com/<your-username>/first-contributions.git/'</pre>
+  fatal: Authentication failed for 'https://github.com/&lt;your-username&gt;/first-contributions.git/'</pre>
   Truy cập vào [GitHub's tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) về việc tạo cấu hình khóa SSH cho tài khoản của bạn.
 
 </details>
@@ -102,21 +101,19 @@ thay thế `<tên-nhánh-của-bạn>` với tên của nhánh bạn tạo ra tr
 
 Nếu bạn mở kho mã nguồn của bạn trên GitHub, bạn sẽ thấy nút `Compare & pull request`. Nhấn vào nút đó.
 
-<img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/compare-and-pull.png" alt="create a pull request" />
+<img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/compare-and-pull.png" alt="yêu cầu hợp nhất" />
 
-Bây giờ, hãy gửi yêu cầu xem xét thay đổi (pull request)
+Bây giờ, hãy gửi yêu cầu hợp nhất (pull request)
 
-<img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/submit-pull-request.png" alt="submit pull request" />
+<img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/submit-pull-request.png" alt="gửi yêu cầu hợp nhất" />
 
 Tôi sẽ sớm hợp nhất (merge) tất cả các thay đổi của bạn vào nhánh chính (master branch) của dự án này. Bạn sẽ nhận được email thông báo sau khi các thay đổi đã được gộp.
 
 ## Bước tiếp theo là gì?
 
-Chúc mừng! Bạn vừa hoàn thành quy trình tiêu chuẩn copy (fork) -> Sao chép (clone) -> chỉnh sửa (edit) -> yêu cầu kéo (pull request) mà bạn sẽ thường gặp khi đóng góp vào những dự án!
+Chúc mừng! Bạn vừa hoàn thành quy trình tiêu rẽ nhánh (fork) -> Sao chép (clone) -> chỉnh sửa (edit) -> yêu cầu hợp nhất (pull request) mà bạn sẽ thường gặp khi đóng góp vào những dự án!
 
-Hãy ăn mừng đóng góp của bạn, và chia sẻ nó với bạn bè và những người theo dõi của bạn bằng cách truy cập [ứng dụng web](https://roshanjossey.github.io/first-contribution/#social-share).
-
-Bạn có thể tham gia Slack của chúng tôi trong trường hợp bạn cần trợ giúp hoặc có câu hỏi nào. [Tham gia Slack](https://join.slack.com/t/firstcontributors/shared_invite/zt-1hg51qkgm-Xc7HxhsiPYNN3ofX2_I8FA).
+Hãy ăn mừng đóng góp của bạn, và chia sẻ nó với bạn bè và những người theo dõi của bạn bằng cách truy cập [ứng dụng web](https://firstcontributions.github.io/#social-share).
 
 Để hỗ trợ bạn với việc đóng góp cho các dự án (project) khác, chúng tôi đã tổng hợp một danh sách các dự án có các vấn đề đơn giản mà bạn có thể bắt đầu. Hãy kiểm tra [danh sách dự án trong ứng dụng web](https://firstcontributions.github.io/#project-list).
 

@@ -28,16 +28,15 @@ Nyní naklonujte (anglicky *clone*) forknutý repozitář na váš počítač, n
 
 Teď otevřete terminál a spusťte následující příkaz:
 
-```
+```bash
 git clone "url které jste právě zkopírovali"
-
 ```
 
 <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/copy-to-clipboard.png" alt="zkopírujte adresu do schránky" />
 
 Například:
 
-```
+```bash
 git clone https://github.com/vase-username/first-contributions.git
 ```
 
@@ -47,18 +46,18 @@ Tímto na svém počítači vytvoříte složku se soubory daného repozitáře.
 
 V příkazové řádce se přepněte do složky s repozitářem (pokud v ní už nejste)
 
-```
+```bash
 cd first-contributions
 ```
 
 Nyní vytvořte novou větev (anglicky *branch*) za použití příkazu `git checkout`:
 
-```
+```bash
 git checkout -b <jmeno-nove-vetve>
 ```
 
 Například:
-```
+```bash
 git checkout -b pridani-meho-jmena
 ```
 
@@ -74,13 +73,13 @@ Pokud teď v příkazové řádce spustíte příkaz `git status`, uvidíte jak�
 
 Tyto změny do dané větvě přidáte příkazem `git add`:
 
-```
+```bash
 git add Contributors.md
 ```
 
 Zbývá už jen potvrdit (anglicky *commit*) změny příkazem `git commit`:
 
-```
+```bash
 git commit -m "Add <vase-jmeno> to Contributors list"
 ```
 
@@ -90,9 +89,10 @@ Za přepínač `-m` se píše co dané změny představují, popis by měl být 
 
 Nyní změny provedené lokálně na počítači protlačíme (anglicky *push*) na GitHub příkazem `git push`:
 
-```
+```bash
 git push origin <jmeno-vasi-vetve>
 ```
+
 
 ## Předložte své změny k posouzení
 
@@ -111,6 +111,8 @@ Brzy budou správci provádět zapracování vašich změn do hlavní (anglicky 
 Blahopřejeme! Právě jste dokončili standardní _fork -> clone -> edit ->_ průběh práce (anglicky *workflow*), se kterým se jako přispěvatel do projektů setkáte dennodenně.
 
 Oslavte svůj první příspěvek se svými přáteli a následovníky přes [webovou aplikaci](https://firstcontributions.github.io/#social-share).
+
+Pokud byste chtěli více praxe, můžete zkusit [code contributions](https://github.com/roshanjossey/code-contributions).
 
 Nyní vám už nic nebrání v příspívání do ostatních projektů. Připravili jsme pro vás seznam projektů, které mají jednoduché záležitosti k vyřešení/naprogramování, se kterými můžete začít. Podívejte se [zde](https://firstcontributions.github.io/#project-list).
 
